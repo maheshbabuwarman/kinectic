@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	double m, v, ke=0;
+
+	cout << "input the object mass in kg : ";
+	cin >> m;
+	cout << "input the object velocity in meter per second : ";
+	cin >> v;
+
+	ke = 0.5*(m *pow(v, 2));
+	
+	cout << "The kinetic energy (Joules) : "<<ke;
+
+}
